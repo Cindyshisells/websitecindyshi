@@ -48,14 +48,14 @@
         <div><strong id="minutes">--</strong><span>Minutes</span></div>
         <div><strong id="seconds">--</strong><span>Seconds</span></div>
       </div>
-      <p class="release">The door opens October 12 at 11:59 PM.<br>Toronto time</p>
+      <p class="release">The door opens October 12 at 11:00 PM.<br>Toronto time</p>
       <noscript><p class="release">Please enable JavaScript to see the countdown and the reveal.</p></noscript>
     </main>
     <footer>Toronto &amp; Greater Toronto Area<br>&copy; 2026 &middot; Made by Godofredo Alves</footer>
   </div>
 <script>
     // Toronto is UTC-04:00 on October 12, 2026. All visitors share one release instant.
-    const releaseAt = Date.parse('2026-10-12T23:59:00-04:00');
+    const releaseAt = Date.parse('2026-10-12T23:00:00-04:00');
     function updateCountdown() {
       const remaining = Math.max(0, Math.ceil((releaseAt - Date.now()) / 1000));
       if (remaining === 0) {
